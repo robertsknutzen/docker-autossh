@@ -1,0 +1,2 @@
+I should be a ssh pubkey 
+Generate a new set and put the public in ~/.ssh/authorized_keys so the container can login

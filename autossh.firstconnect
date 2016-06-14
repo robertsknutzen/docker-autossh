@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+#this script establishes the initial connection so that you wont have to add the identity for autossh
+#
+#Modified June 12thish 2016
+source autossh.config
+ssh  -oStrictHostKeyChecking=no ${ID}@${HOST} -p $SSH_PORT -i $KEY_FILE "echo yep"  
+
